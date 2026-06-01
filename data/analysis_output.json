@@ -1,0 +1,570 @@
+{
+  "sources": {
+    "market_share": "Kantar (via CCPC high-level grocery analysis, Aug 2025; Kantar monthly 2025)",
+    "sku_range": "CMA Aldi hearing 2018; IGD / retail press 2024-25",
+    "private_label": "Aldi CEO via WSJ; Brand Nudge 2025; Food Republic 2025",
+    "promo": "CMA Aldi hearing 2018 (discounter <10% vs ~35% market avg)",
+    "margin": "The Guardian / Aldi UK; industry estimates"
+  },
+  "hhi": 1736,
+  "chains": {
+    "Dunnes": {
+      "chain": "Dunnes",
+      "model": "Full-range",
+      "share": 24.1,
+      "sku": 22000,
+      "private_label": 55,
+      "promo": 30,
+      "margin": 4.2,
+      "stores": 160,
+      "dcs": 3,
+      "avg_turns": 5.1,
+      "total_inv_value": 13279888,
+      "avg_lead_time": 4.69,
+      "avg_service": 95,
+      "sku_per_dc": 7333,
+      "pct_A_skus": 47.0,
+      "pct_perishable": 40.5,
+      "annual_supply_cost": 8164458
+    },
+    "Tesco": {
+      "chain": "Tesco",
+      "model": "Full-range",
+      "share": 23.5,
+      "sku": 40000,
+      "private_label": 48,
+      "promo": 33,
+      "margin": 4.0,
+      "stores": 180,
+      "dcs": 4,
+      "avg_turns": 5.1,
+      "total_inv_value": 23971190,
+      "avg_lead_time": 4.69,
+      "avg_service": 95,
+      "sku_per_dc": 10000,
+      "pct_A_skus": 46.8,
+      "pct_perishable": 40.0,
+      "annual_supply_cost": 14729827
+    },
+    "Lidl": {
+      "chain": "Lidl",
+      "model": "Discounter",
+      "share": 13.8,
+      "sku": 2000,
+      "private_label": 80,
+      "promo": 9,
+      "margin": 3.0,
+      "stores": 180,
+      "dcs": 3,
+      "avg_turns": 11.1,
+      "total_inv_value": 2616843,
+      "avg_lead_time": 2.9,
+      "avg_service": 95,
+      "sku_per_dc": 667,
+      "pct_A_skus": 45.9,
+      "pct_perishable": 39.7,
+      "annual_supply_cost": 1607767
+    },
+    "Aldi": {
+      "chain": "Aldi",
+      "model": "Discounter",
+      "share": 11.8,
+      "sku": 1800,
+      "private_label": 90,
+      "promo": 8,
+      "margin": 2.6,
+      "stores": 160,
+      "dcs": 2,
+      "avg_turns": 11.3,
+      "total_inv_value": 2404969,
+      "avg_lead_time": 2.91,
+      "avg_service": 95,
+      "sku_per_dc": 900,
+      "pct_A_skus": 45.2,
+      "pct_perishable": 38.7,
+      "annual_supply_cost": 1469288
+    }
+  },
+  "share_ts": {
+    "period": [
+      "Feb",
+      "Apr",
+      "Jun",
+      "Aug",
+      "Oct",
+      "Dec"
+    ],
+    "Dunnes": [
+      24.6,
+      24.1,
+      24.1,
+      23.6,
+      24.4,
+      24.8
+    ],
+    "Tesco": [
+      23.9,
+      23.4,
+      23.3,
+      23.3,
+      23.7,
+      24.0
+    ],
+    "Lidl": [
+      12.8,
+      13.5,
+      14.0,
+      14.0,
+      14.1,
+      13.5
+    ],
+    "Aldi": [
+      10.9,
+      11.5,
+      11.8,
+      11.8,
+      11.5,
+      11.6
+    ]
+  },
+  "service_curves": {
+    "Dunnes": [
+      {
+        "service_level": 80.0,
+        "inv_value": 12917415,
+        "annual_cost": 8058529
+      },
+      {
+        "service_level": 85.0,
+        "inv_value": 13005328,
+        "annual_cost": 8084222
+      },
+      {
+        "service_level": 90.0,
+        "inv_value": 13115942,
+        "annual_cost": 8116546
+      },
+      {
+        "service_level": 92.5,
+        "inv_value": 13187233,
+        "annual_cost": 8137381
+      },
+      {
+        "service_level": 95.0,
+        "inv_value": 13279888,
+        "annual_cost": 8164458
+      },
+      {
+        "service_level": 97.0,
+        "inv_value": 13386359,
+        "annual_cost": 8195573
+      },
+      {
+        "service_level": 98.0,
+        "inv_value": 13464408,
+        "annual_cost": 8218383
+      },
+      {
+        "service_level": 99.0,
+        "inv_value": 13587423,
+        "annual_cost": 8254333
+      },
+      {
+        "service_level": 99.5,
+        "inv_value": 13700005,
+        "annual_cost": 8287234
+      }
+    ],
+    "Tesco": [
+      {
+        "service_level": 80.0,
+        "inv_value": 23324723,
+        "annual_cost": 14540722
+      },
+      {
+        "service_level": 85.0,
+        "inv_value": 23481515,
+        "annual_cost": 14586586
+      },
+      {
+        "service_level": 90.0,
+        "inv_value": 23678792,
+        "annual_cost": 14644294
+      },
+      {
+        "service_level": 92.5,
+        "inv_value": 23805939,
+        "annual_cost": 14681487
+      },
+      {
+        "service_level": 95.0,
+        "inv_value": 23971190,
+        "annual_cost": 14729827
+      },
+      {
+        "service_level": 97.0,
+        "inv_value": 24161080,
+        "annual_cost": 14785374
+      },
+      {
+        "service_level": 98.0,
+        "inv_value": 24300281,
+        "annual_cost": 14826091
+      },
+      {
+        "service_level": 99.0,
+        "inv_value": 24519677,
+        "annual_cost": 14890270
+      },
+      {
+        "service_level": 99.5,
+        "inv_value": 24720468,
+        "annual_cost": 14949006
+      }
+    ],
+    "Lidl": [
+      {
+        "service_level": 80.0,
+        "inv_value": 2555923,
+        "annual_cost": 1588952
+      },
+      {
+        "service_level": 85.0,
+        "inv_value": 2570699,
+        "annual_cost": 1593515
+      },
+      {
+        "service_level": 90.0,
+        "inv_value": 2589289,
+        "annual_cost": 1599257
+      },
+      {
+        "service_level": 92.5,
+        "inv_value": 2601271,
+        "annual_cost": 1602957
+      },
+      {
+        "service_level": 95.0,
+        "inv_value": 2616843,
+        "annual_cost": 1607767
+      },
+      {
+        "service_level": 97.0,
+        "inv_value": 2634737,
+        "annual_cost": 1613294
+      },
+      {
+        "service_level": 98.0,
+        "inv_value": 2647855,
+        "annual_cost": 1617345
+      },
+      {
+        "service_level": 99.0,
+        "inv_value": 2668530,
+        "annual_cost": 1623730
+      },
+      {
+        "service_level": 99.5,
+        "inv_value": 2687451,
+        "annual_cost": 1629574
+      }
+    ],
+    "Aldi": [
+      {
+        "service_level": 80.0,
+        "inv_value": 2348319,
+        "annual_cost": 1451762
+      },
+      {
+        "service_level": 85.0,
+        "inv_value": 2362059,
+        "annual_cost": 1456013
+      },
+      {
+        "service_level": 90.0,
+        "inv_value": 2379347,
+        "annual_cost": 1461361
+      },
+      {
+        "service_level": 92.5,
+        "inv_value": 2390489,
+        "annual_cost": 1464808
+      },
+      {
+        "service_level": 95.0,
+        "inv_value": 2404969,
+        "annual_cost": 1469288
+      },
+      {
+        "service_level": 97.0,
+        "inv_value": 2421610,
+        "annual_cost": 1474436
+      },
+      {
+        "service_level": 98.0,
+        "inv_value": 2433808,
+        "annual_cost": 1478210
+      },
+      {
+        "service_level": 99.0,
+        "inv_value": 2453033,
+        "annual_cost": 1484158
+      },
+      {
+        "service_level": 99.5,
+        "inv_value": 2470629,
+        "annual_cost": 1489601
+      }
+    ]
+  },
+  "cat_profiles": {
+    "Dunnes": [
+      {
+        "category": "Ambient/Grocery",
+        "skus": 4825,
+        "inv_value": 3276853.0,
+        "turns": 4.5
+      },
+      {
+        "category": "Beverages",
+        "skus": 2199,
+        "inv_value": 1514218.0,
+        "turns": 4.6
+      },
+      {
+        "category": "Produce",
+        "skus": 2909,
+        "inv_value": 1431166.0,
+        "turns": 6.4
+      },
+      {
+        "category": "Dairy",
+        "skus": 2486,
+        "inv_value": 1214774.0,
+        "turns": 6.2
+      },
+      {
+        "category": "Household",
+        "skus": 1724,
+        "inv_value": 1176851.0,
+        "turns": 4.6
+      },
+      {
+        "category": "Meat & Fish",
+        "skus": 2189,
+        "inv_value": 1069692.0,
+        "turns": 6.2
+      },
+      {
+        "category": "Frozen",
+        "skus": 1533,
+        "inv_value": 1040112.0,
+        "turns": 4.5
+      },
+      {
+        "category": "Health & Beauty",
+        "skus": 1499,
+        "inv_value": 1018632.0,
+        "turns": 4.5
+      },
+      {
+        "category": "Non-food/General",
+        "skus": 1319,
+        "inv_value": 899634.0,
+        "turns": 4.5
+      },
+      {
+        "category": "Bakery",
+        "skus": 1317,
+        "inv_value": 637954.0,
+        "turns": 6.2
+      }
+    ],
+    "Tesco": [
+      {
+        "category": "Ambient/Grocery",
+        "skus": 8631,
+        "inv_value": 5799227.0,
+        "turns": 4.5
+      },
+      {
+        "category": "Beverages",
+        "skus": 4098,
+        "inv_value": 2773295.0,
+        "turns": 4.5
+      },
+      {
+        "category": "Produce",
+        "skus": 5122,
+        "inv_value": 2512668.0,
+        "turns": 6.2
+      },
+      {
+        "category": "Dairy",
+        "skus": 4434,
+        "inv_value": 2168687.0,
+        "turns": 6.2
+      },
+      {
+        "category": "Household",
+        "skus": 3181,
+        "inv_value": 2135387.0,
+        "turns": 4.5
+      },
+      {
+        "category": "Meat & Fish",
+        "skus": 4053,
+        "inv_value": 1978096.0,
+        "turns": 6.2
+      },
+      {
+        "category": "Frozen",
+        "skus": 2882,
+        "inv_value": 1941936.0,
+        "turns": 4.4
+      },
+      {
+        "category": "Health & Beauty",
+        "skus": 2776,
+        "inv_value": 1854139.0,
+        "turns": 4.4
+      },
+      {
+        "category": "Non-food/General",
+        "skus": 2425,
+        "inv_value": 1638509.0,
+        "turns": 4.4
+      },
+      {
+        "category": "Bakery",
+        "skus": 2398,
+        "inv_value": 1169247.0,
+        "turns": 6.2
+      }
+    ],
+    "Lidl": [
+      {
+        "category": "Ambient/Grocery",
+        "skus": 452,
+        "inv_value": 663840.0,
+        "turns": 9.8
+      },
+      {
+        "category": "Produce",
+        "skus": 285,
+        "inv_value": 309114.0,
+        "turns": 14.1
+      },
+      {
+        "category": "Beverages",
+        "skus": 203,
+        "inv_value": 283005.0,
+        "turns": 9.3
+      },
+      {
+        "category": "Household",
+        "skus": 172,
+        "inv_value": 243255.0,
+        "turns": 10.3
+      },
+      {
+        "category": "Frozen",
+        "skus": 146,
+        "inv_value": 234800.0,
+        "turns": 10.2
+      },
+      {
+        "category": "Dairy",
+        "skus": 195,
+        "inv_value": 207815.0,
+        "turns": 13.5
+      },
+      {
+        "category": "Health & Beauty",
+        "skus": 124,
+        "inv_value": 191452.0,
+        "turns": 10.8
+      },
+      {
+        "category": "Meat & Fish",
+        "skus": 178,
+        "inv_value": 173980.0,
+        "turns": 12.4
+      },
+      {
+        "category": "Non-food/General",
+        "skus": 109,
+        "inv_value": 155803.0,
+        "turns": 9.7
+      },
+      {
+        "category": "Bakery",
+        "skus": 136,
+        "inv_value": 153777.0,
+        "turns": 13.9
+      }
+    ],
+    "Aldi": [
+      {
+        "category": "Ambient/Grocery",
+        "skus": 412,
+        "inv_value": 613498.0,
+        "turns": 10.1
+      },
+      {
+        "category": "Beverages",
+        "skus": 178,
+        "inv_value": 272647.0,
+        "turns": 9.9
+      },
+      {
+        "category": "Produce",
+        "skus": 230,
+        "inv_value": 240037.0,
+        "turns": 12.6
+      },
+      {
+        "category": "Household",
+        "skus": 157,
+        "inv_value": 237922.0,
+        "turns": 10.3
+      },
+      {
+        "category": "Dairy",
+        "skus": 197,
+        "inv_value": 217539.0,
+        "turns": 13.8
+      },
+      {
+        "category": "Meat & Fish",
+        "skus": 169,
+        "inv_value": 186604.0,
+        "turns": 13.6
+      },
+      {
+        "category": "Frozen",
+        "skus": 127,
+        "inv_value": 178243.0,
+        "turns": 9.6
+      },
+      {
+        "category": "Health & Beauty",
+        "skus": 122,
+        "inv_value": 176926.0,
+        "turns": 9.8
+      },
+      {
+        "category": "Non-food/General",
+        "skus": 107,
+        "inv_value": 169003.0,
+        "turns": 11.2
+      },
+      {
+        "category": "Bakery",
+        "skus": 101,
+        "inv_value": 112552.0,
+        "turns": 13.4
+      }
+    ]
+  }
+}

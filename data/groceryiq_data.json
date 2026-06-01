@@ -1,0 +1,658 @@
+{
+  "chains": [
+    "Aldi",
+    "Lidl",
+    "Tesco",
+    "Dunnes",
+    "SuperValu"
+  ],
+  "model": {
+    "Aldi": "Discounter",
+    "Lidl": "Discounter",
+    "Tesco": "Full-range",
+    "Dunnes": "Full-range",
+    "SuperValu": "Full-range"
+  },
+  "colour": {
+    "Aldi": "#0a8a4a",
+    "Lidl": "#1f9bd6",
+    "Tesco": "#e23744",
+    "Dunnes": "#f0a500",
+    "SuperValu": "#7b5ea7"
+  },
+  "basket_index": {
+    "Aldi": 100.0,
+    "Lidl": 99.4,
+    "Tesco": 112.5,
+    "Dunnes": 114.0,
+    "SuperValu": 118.5
+  },
+  "loyalty": {
+    "Aldi": 0.0,
+    "Lidl": 0.5,
+    "Tesco": 1.5,
+    "Dunnes": 8.0,
+    "SuperValu": 3.5
+  },
+  "loyalty_note": {
+    "Aldi": "EDLP, no scheme",
+    "Lidl": "Lidl Plus",
+    "Tesco": "Clubcard (~20% on selected lines)",
+    "Dunnes": "\u20ac10 off \u20ac50 voucher",
+    "SuperValu": "Real Rewards points"
+  },
+  "margin": {
+    "Aldi": 2.6,
+    "Lidl": 3.0,
+    "Tesco": 3.7,
+    "Dunnes": 4.2,
+    "SuperValu": 3.4
+  },
+  "baskets": {
+    "Student": {
+      "weekly_base": 42,
+      "items": 18,
+      "protein_g": 380,
+      "kcal": 12500
+    },
+    "Family of four": {
+      "weekly_base": 145,
+      "items": 46,
+      "protein_g": 1650,
+      "kcal": 58000
+    },
+    "Healthy": {
+      "weekly_base": 78,
+      "items": 29,
+      "protein_g": 980,
+      "kcal": 21000
+    },
+    "High-protein": {
+      "weekly_base": 92,
+      "items": 24,
+      "protein_g": 1400,
+      "kcal": 23000
+    },
+    "Inflation survival": {
+      "weekly_base": 33,
+      "items": 15,
+      "protein_g": 300,
+      "kcal": 15500
+    }
+  },
+  "basket_costs": {
+    "Student": {
+      "Aldi": {
+        "weekly": 42.0,
+        "weekly_loyalty": 42.0,
+        "monthly": 182.49,
+        "annual": 2184.0,
+        "cost_per_1000kcal": 3.36,
+        "cost_per_100g_protein": 11.053,
+        "annual_saving_vs_dearest": 313.46
+      },
+      "Lidl": {
+        "weekly": 41.75,
+        "weekly_loyalty": 41.54,
+        "monthly": 180.49,
+        "annual": 2160.04,
+        "cost_per_1000kcal": 3.323,
+        "cost_per_100g_protein": 10.931,
+        "annual_saving_vs_dearest": 337.42
+      },
+      "Tesco": {
+        "weekly": 47.25,
+        "weekly_loyalty": 46.54,
+        "monthly": 202.22,
+        "annual": 2420.14,
+        "cost_per_1000kcal": 3.723,
+        "cost_per_100g_protein": 12.248,
+        "annual_saving_vs_dearest": 77.32
+      },
+      "Dunnes": {
+        "weekly": 47.88,
+        "weekly_loyalty": 44.05,
+        "monthly": 191.4,
+        "annual": 2290.58,
+        "cost_per_1000kcal": 3.524,
+        "cost_per_100g_protein": 11.592,
+        "annual_saving_vs_dearest": 206.88
+      },
+      "SuperValu": {
+        "weekly": 49.77,
+        "weekly_loyalty": 48.03,
+        "monthly": 208.68,
+        "annual": 2497.46,
+        "cost_per_1000kcal": 3.842,
+        "cost_per_100g_protein": 12.639,
+        "annual_saving_vs_dearest": 0.0
+      }
+    },
+    "Family of four": {
+      "Aldi": {
+        "weekly": 145.0,
+        "weekly_loyalty": 145.0,
+        "monthly": 630.02,
+        "annual": 7540.0,
+        "cost_per_1000kcal": 2.5,
+        "cost_per_100g_protein": 8.788,
+        "annual_saving_vs_dearest": 1082.18
+      },
+      "Lidl": {
+        "weekly": 144.13,
+        "weekly_loyalty": 143.41,
+        "monthly": 623.11,
+        "annual": 7457.29,
+        "cost_per_1000kcal": 2.473,
+        "cost_per_100g_protein": 8.691,
+        "annual_saving_vs_dearest": 1164.89
+      },
+      "Tesco": {
+        "weekly": 163.12,
+        "weekly_loyalty": 160.68,
+        "monthly": 698.15,
+        "annual": 8355.26,
+        "cost_per_1000kcal": 2.77,
+        "cost_per_100g_protein": 9.738,
+        "annual_saving_vs_dearest": 266.92
+      },
+      "Dunnes": {
+        "weekly": 165.3,
+        "weekly_loyalty": 152.08,
+        "monthly": 660.77,
+        "annual": 7907.95,
+        "cost_per_1000kcal": 2.622,
+        "cost_per_100g_protein": 9.217,
+        "annual_saving_vs_dearest": 714.23
+      },
+      "SuperValu": {
+        "weekly": 171.82,
+        "weekly_loyalty": 165.81,
+        "monthly": 720.45,
+        "annual": 8622.18,
+        "cost_per_1000kcal": 2.859,
+        "cost_per_100g_protein": 10.049,
+        "annual_saving_vs_dearest": 0.0
+      }
+    },
+    "Healthy": {
+      "Aldi": {
+        "weekly": 78.0,
+        "weekly_loyalty": 78.0,
+        "monthly": 338.91,
+        "annual": 4056.0,
+        "cost_per_1000kcal": 3.714,
+        "cost_per_100g_protein": 7.959,
+        "annual_saving_vs_dearest": 582.14
+      },
+      "Lidl": {
+        "weekly": 77.53,
+        "weekly_loyalty": 77.14,
+        "monthly": 335.19,
+        "annual": 4011.51,
+        "cost_per_1000kcal": 3.674,
+        "cost_per_100g_protein": 7.872,
+        "annual_saving_vs_dearest": 626.63
+      },
+      "Tesco": {
+        "weekly": 87.75,
+        "weekly_loyalty": 86.43,
+        "monthly": 375.55,
+        "annual": 4494.56,
+        "cost_per_1000kcal": 4.116,
+        "cost_per_100g_protein": 8.82,
+        "annual_saving_vs_dearest": 143.58
+      },
+      "Dunnes": {
+        "weekly": 88.92,
+        "weekly_loyalty": 81.81,
+        "monthly": 355.45,
+        "annual": 4253.93,
+        "cost_per_1000kcal": 3.896,
+        "cost_per_100g_protein": 8.348,
+        "annual_saving_vs_dearest": 384.21
+      },
+      "SuperValu": {
+        "weekly": 92.43,
+        "weekly_loyalty": 89.19,
+        "monthly": 387.55,
+        "annual": 4638.14,
+        "cost_per_1000kcal": 4.247,
+        "cost_per_100g_protein": 9.102,
+        "annual_saving_vs_dearest": 0.0
+      }
+    },
+    "High-protein": {
+      "Aldi": {
+        "weekly": 92.0,
+        "weekly_loyalty": 92.0,
+        "monthly": 399.74,
+        "annual": 4784.0,
+        "cost_per_1000kcal": 4.0,
+        "cost_per_100g_protein": 6.571,
+        "annual_saving_vs_dearest": 686.62
+      },
+      "Lidl": {
+        "weekly": 91.45,
+        "weekly_loyalty": 90.99,
+        "monthly": 395.35,
+        "annual": 4731.52,
+        "cost_per_1000kcal": 3.956,
+        "cost_per_100g_protein": 6.499,
+        "annual_saving_vs_dearest": 739.1
+      },
+      "Tesco": {
+        "weekly": 103.5,
+        "weekly_loyalty": 101.95,
+        "monthly": 442.96,
+        "annual": 5301.27,
+        "cost_per_1000kcal": 4.433,
+        "cost_per_100g_protein": 7.282,
+        "annual_saving_vs_dearest": 169.35
+      },
+      "Dunnes": {
+        "weekly": 104.88,
+        "weekly_loyalty": 96.49,
+        "monthly": 419.25,
+        "annual": 5017.46,
+        "cost_per_1000kcal": 4.195,
+        "cost_per_100g_protein": 6.892,
+        "annual_saving_vs_dearest": 453.16
+      },
+      "SuperValu": {
+        "weekly": 109.02,
+        "weekly_loyalty": 105.2,
+        "monthly": 457.11,
+        "annual": 5470.62,
+        "cost_per_1000kcal": 4.574,
+        "cost_per_100g_protein": 7.515,
+        "annual_saving_vs_dearest": 0.0
+      }
+    },
+    "Inflation survival": {
+      "Aldi": {
+        "weekly": 33.0,
+        "weekly_loyalty": 33.0,
+        "monthly": 143.38,
+        "annual": 1716.0,
+        "cost_per_1000kcal": 2.129,
+        "cost_per_100g_protein": 11.0,
+        "annual_saving_vs_dearest": 246.29
+      },
+      "Lidl": {
+        "weekly": 32.8,
+        "weekly_loyalty": 32.64,
+        "monthly": 141.81,
+        "annual": 1697.18,
+        "cost_per_1000kcal": 2.106,
+        "cost_per_100g_protein": 10.879,
+        "annual_saving_vs_dearest": 265.11
+      },
+      "Tesco": {
+        "weekly": 37.12,
+        "weekly_loyalty": 36.57,
+        "monthly": 158.89,
+        "annual": 1901.54,
+        "cost_per_1000kcal": 2.359,
+        "cost_per_100g_protein": 12.189,
+        "annual_saving_vs_dearest": 60.75
+      },
+      "Dunnes": {
+        "weekly": 37.62,
+        "weekly_loyalty": 34.61,
+        "monthly": 150.38,
+        "annual": 1799.74,
+        "cost_per_1000kcal": 2.233,
+        "cost_per_100g_protein": 11.537,
+        "annual_saving_vs_dearest": 162.55
+      },
+      "SuperValu": {
+        "weekly": 39.1,
+        "weekly_loyalty": 37.74,
+        "monthly": 163.96,
+        "annual": 1962.29,
+        "cost_per_1000kcal": 2.435,
+        "cost_per_100g_protein": 12.579,
+        "annual_saving_vs_dearest": 0.0
+      }
+    }
+  },
+  "waterfall": [
+    {
+      "driver": "Full-range baseline price",
+      "value": 100.0,
+      "kind": "base"
+    },
+    {
+      "driver": "Private-label (no brand premium)",
+      "value": -5.2,
+      "kind": "cut"
+    },
+    {
+      "driver": "Narrow SKU range (volume/runs)",
+      "value": -3.1,
+      "kind": "cut"
+    },
+    {
+      "driver": "Simplified logistics & DCs",
+      "value": -2.0,
+      "kind": "cut"
+    },
+    {
+      "driver": "Lower labour per \u20ac sales",
+      "value": -1.8,
+      "kind": "cut"
+    },
+    {
+      "driver": "Minimal promo/advertising",
+      "value": -1.4,
+      "kind": "cut"
+    },
+    {
+      "driver": "Faster inventory turns",
+      "value": -0.9,
+      "kind": "cut"
+    },
+    {
+      "driver": "Discounter shelf price",
+      "value": 84.6,
+      "kind": "result"
+    }
+  ],
+  "scenarios": {
+    "supplier_delay": {
+      "label": "Supplier lead-time +X days",
+      "full": {
+        "cost": 0.058,
+        "stockout": 0.075,
+        "wc": 0.062
+      },
+      "disc": {
+        "cost": 0.034,
+        "stockout": 0.041,
+        "wc": 0.038
+      },
+      "unit": "days",
+      "max": 10
+    },
+    "inflation_shock": {
+      "label": "Input inflation +X%",
+      "full": {
+        "cost": 0.092,
+        "stockout": 0.012,
+        "wc": 0.088
+      },
+      "disc": {
+        "cost": 0.071,
+        "stockout": 0.008,
+        "wc": 0.069
+      },
+      "unit": "%",
+      "max": 15
+    },
+    "fuel_cost": {
+      "label": "Fuel / freight +X%",
+      "full": {
+        "cost": 0.031,
+        "stockout": 0.006,
+        "wc": 0.012
+      },
+      "disc": {
+        "cost": 0.019,
+        "stockout": 0.004,
+        "wc": 0.008
+      },
+      "unit": "%",
+      "max": 30
+    },
+    "sku_expansion": {
+      "label": "SKU range +X%",
+      "full": {
+        "cost": 0.044,
+        "stockout": 0.028,
+        "wc": 0.051
+      },
+      "disc": {
+        "cost": 0.067,
+        "stockout": 0.039,
+        "wc": 0.072
+      },
+      "unit": "%",
+      "max": 40
+    },
+    "demand_volatility": {
+      "label": "Forecast error +X%",
+      "full": {
+        "cost": 0.026,
+        "stockout": 0.084,
+        "wc": 0.033
+      },
+      "disc": {
+        "cost": 0.018,
+        "stockout": 0.058,
+        "wc": 0.024
+      },
+      "unit": "%",
+      "max": 50
+    }
+  },
+  "sources": {
+    "basket": "Irish supermarket price studies 2025 (Irish Mirror/Irish Euro); Which? UK basket 2024-25 ratios",
+    "loyalty": "Retailer loyalty mechanics (Tesco Clubcard, Dunnes \u20ac10-off-\u20ac50, SuperValu Real Rewards)",
+    "margin": "Tesco IE op margin 3.7% (FY Feb 2024); Aldi IE 2023 accounts; Musgrave 2023",
+    "waterfall": "Discounter operating-model analysis (private label, SKU, labour, logistics)"
+  },
+  "consumer_attrs": {
+    "Aldi": {
+      "price": 98,
+      "loyalty": 20,
+      "range": 35,
+      "quality": 72,
+      "convenience": 70,
+      "fresh": 68,
+      "premium": 40
+    },
+    "Lidl": {
+      "price": 99,
+      "loyalty": 45,
+      "range": 38,
+      "quality": 74,
+      "convenience": 72,
+      "fresh": 70,
+      "premium": 42
+    },
+    "Tesco": {
+      "price": 70,
+      "loyalty": 82,
+      "range": 96,
+      "quality": 80,
+      "convenience": 88,
+      "fresh": 82,
+      "premium": 70
+    },
+    "Dunnes": {
+      "price": 66,
+      "loyalty": 88,
+      "range": 85,
+      "quality": 84,
+      "convenience": 78,
+      "fresh": 85,
+      "premium": 80
+    },
+    "SuperValu": {
+      "price": 58,
+      "loyalty": 70,
+      "range": 88,
+      "quality": 86,
+      "convenience": 92,
+      "fresh": 90,
+      "premium": 82
+    }
+  },
+  "basket_fit": {
+    "Aldi": {
+      "Student": 95,
+      "Family of four": 90,
+      "Healthy": 78,
+      "High-protein": 80,
+      "Inflation survival": 97
+    },
+    "Lidl": {
+      "Student": 96,
+      "Family of four": 91,
+      "Healthy": 80,
+      "High-protein": 82,
+      "Inflation survival": 98
+    },
+    "Tesco": {
+      "Student": 74,
+      "Family of four": 86,
+      "Healthy": 88,
+      "High-protein": 90,
+      "Inflation survival": 70
+    },
+    "Dunnes": {
+      "Student": 70,
+      "Family of four": 84,
+      "Healthy": 86,
+      "High-protein": 85,
+      "Inflation survival": 68
+    },
+    "SuperValu": {
+      "Student": 62,
+      "Family of four": 80,
+      "Healthy": 90,
+      "High-protein": 86,
+      "Inflation survival": 60
+    }
+  },
+  "inflation": {
+    "hist": {
+      "Feb": 3.7,
+      "Apr": 4.0,
+      "Jun": 5.3,
+      "Aug": 5.6,
+      "Oct": 6.5,
+      "Dec": 6.0
+    },
+    "cat": {
+      "Dairy": 7.8,
+      "Meat & Fish": 6.9,
+      "Bakery": 6.2,
+      "Produce": 5.1,
+      "Ambient/Grocery": 5.8,
+      "Beverages": 4.6,
+      "Frozen": 4.2,
+      "Household": 3.4
+    },
+    "resilience": {
+      "Aldi": 82,
+      "Lidl": 80,
+      "Tesco": 63,
+      "Dunnes": 61,
+      "SuperValu": 57
+    },
+    "proj_months": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "proj": [
+      5.56,
+      5.3,
+      5.07,
+      4.85,
+      4.82,
+      4.71,
+      4.66,
+      4.43,
+      4.24,
+      4.19,
+      4.1,
+      4.12
+    ],
+    "proj_lo": [
+      5.06,
+      4.67,
+      4.31,
+      3.96,
+      3.8,
+      3.56,
+      3.38,
+      3.02,
+      2.7,
+      2.52,
+      2.3,
+      2.19
+    ],
+    "proj_hi": [
+      6.06,
+      5.93,
+      5.83,
+      5.74,
+      5.84,
+      5.86,
+      5.94,
+      5.84,
+      5.78,
+      5.86,
+      5.9,
+      6.05
+    ],
+    "note": "History: Kantar Irish grocery inflation 2025. Category split calibrated to CSO food sub-indices. Projection is a mean-reversion model with widening confidence band, illustrative not forecast-grade."
+  },
+  "risk_dims": [
+    "Supplier dependency",
+    "Lead-time volatility",
+    "Spoilage exposure",
+    "Logistics fragility",
+    "SKU complexity burden"
+  ],
+  "risk": {
+    "Aldi": [
+      72,
+      28,
+      34,
+      30,
+      22
+    ],
+    "Lidl": [
+      70,
+      30,
+      36,
+      32,
+      26
+    ],
+    "Tesco": [
+      44,
+      66,
+      58,
+      64,
+      92
+    ],
+    "Dunnes": [
+      48,
+      60,
+      56,
+      58,
+      80
+    ],
+    "SuperValu": [
+      40,
+      58,
+      62,
+      60,
+      84
+    ]
+  },
+  "risk_note": "Modelled exposure scores derived from each chain's operating profile (range, supplier base, perishable share, DC footprint). Higher = more exposed."
+}
