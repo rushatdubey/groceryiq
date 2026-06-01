@@ -42,23 +42,8 @@ Explore:
 
 ## Platform Preview
 
-### Executive Overview
-![Overview](screenshots/overview.png)
-
-### Basket Analytics
-![Basket](screenshots/basket.png)
-
-### Consumer Tradeoff Engine
-![Tradeoff](screenshots/tradeoff.png)
-
-### Inflation Intelligence
-![Inflation](screenshots/inflation.png)
-
-### Inventory Optimizer and Scenario Engine
-![Inventory](screenshots/inventory.png)
-
-### Supply Chain Risk Heatmap
-![Risk](screenshots/risk.png)
+### Landing Page
+![Landing Page](preview/landing.png)
 
 ---
 
@@ -179,7 +164,7 @@ No frameworks, no bundler, no build step. The entire platform runs from a single
 ```
 groceryiq/
 ├── index.html                  # Full platform: landing, dashboard, all modules (single file)
-├── screenshots/                # Platform preview images
+├── preview/                    # Platform preview images
 ├── sql/
 │   └── groceryiq_queries.sql   # 11 analytical SQL queries (operating model, basket, inventory, ABC, risk)
 ├── python/
@@ -188,7 +173,6 @@ groceryiq/
 ├── data/
 │   ├── analysis_output.json    # Inventory / operating-model outputs
 │   └── groceryiq_data.json     # Basket, inflation, risk, consumer-attribute outputs
-├── vercel.json
 ├── README.md
 └── LICENSE
 ```
